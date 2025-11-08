@@ -294,9 +294,9 @@ section h2 {
 }
 
 
-.menu-grid {    
+.menu-grid {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 25px;
 }
@@ -311,7 +311,7 @@ section h2 {
     flex-direction: column;
     gap: 15px;
     min-height: auto;
-    width: 300px;
+    width: 320px;
 }
 
 .item-header {
