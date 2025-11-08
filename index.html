@@ -48,24 +48,11 @@
     <nav class="main-nav">
         <button class="close-btn" aria-label="Fechar menu">&times;</button>
         <ul>
-            <li><a href="#menu">Menu</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
             <li><a href="#sobre">Nossa História</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
-
-    <section id="sobre" class="sobre-nos">
-        <div class="container">
-            <h2>Nossa História</h2>
-            <div class="historia-content">
-                <p class="ifood-description">Nossa história tem sabor alemão com toque carioca! Tudo começou com uma
-                    paixão pela culinária alemã e a vontade de inovar. Assim, inspirados na tradição alemã, selecionamos
-                    os quitutes mais saborosos e deliciosos para conquistar os corações cariocas. Cada prato é feito com
-                    muita dedicação para compartilhar a riqueza da gastronomia alemã, feita por quem ama cozinhar e
-                    servir!</p>
-            </div>
-        </div>
-    </section>
 
     <section id="menu" class="menu-destaque">
         <div class="container">
@@ -261,7 +248,27 @@
             </div>
     </section>
 
+    <section id="sobre" class="sobre-nos">
+        <div class="container">
+            <h2>Nossa História</h2>
+            <div class="historia-content">
+                <p class="ifood-description">Nossa história tem sabor alemão com toque carioca! Tudo começou com uma
+                    paixão pela culinária alemã e a vontade de inovar. Assim, inspirados na tradição alemã, selecionamos
+                    os quitutes mais saborosos e deliciosos para conquistar os corações cariocas. Cada prato é feito com
+                    muita dedicação para compartilhar a riqueza da gastronomia alemã, feita por quem ama cozinhar e
+                    servir!</p>
+            </div>
+        </div>
+    </section>
+
     <footer id="contato">
+        <a href="https://www.ifood.com.br/delivery/rio-de-janeiro-rj/tasca-do-alemao-recreio-dos-bandeirantes/5bbb1897-87ae-4a1b-856a-bd5d401b2978"
+            target="_blank">
+            <p>Peça agora pelo iFood</p>
+        </a>
+        <a href="https://www.instagram.com/tascadoalemao/" target="_blank">
+            <p>Nos siga no Instagram</p>
+        </a>
         <p>© 2025 Tasca do Alemão. Todos os direitos reservados.</p>
     </footer>
 
@@ -280,7 +287,7 @@
         }
 
         hamburgerBtn.addEventListener('click', openMenu);
-        closeBtn.addEventListener('click', closeMenu);        
+        closeBtn.addEventListener('click', closeMenu);
         navLinks.forEach(link => {
             link.addEventListener('click', closeMenu);
         });
