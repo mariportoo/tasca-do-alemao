@@ -168,11 +168,10 @@ section {
 
 /* SECTION: MENU */
 .menu-destaque {
-    background-color: white; /* Fundo branco para destacar os cards */
-    padding: 80px 5%; /* Mais padding lateral */
+    background-color: white;
+    padding: 80px 5%;
 }
 
-/* Adiciona um container para centralizar o conteúdo do menu */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -194,40 +193,34 @@ section {
 
 .menu-category {
     margin-bottom: 50px;
-    text-align: left; /* Alinha o título da categoria à esquerda */
+    text-align: left;
 }
 
 .menu-category h3 {
     font-size: 1.8em;
-    color: var(--primary); /* Cor vinho (#79220F) */
-    /* Cria a linha dourada abaixo do título */
-    border-bottom: 3px solid var(--secondary); /* Cor ouro (#D7B475) */
+    color: var(--primary);
+    border-bottom: 3px solid var(--secondary);
     padding-bottom: 10px;
     margin-bottom: 30px;
-    display: inline-block; /* Faz a borda ficar só no texto */
+    display: inline-block;
 }
 
 
 .menu-grid {
     display: grid;
-    /* Cria colunas que se ajustam:
-    - Tenta criar colunas de no mínimo 300px.
-    - Se não couber, quebra (cria 1 coluna em celular).
-    - Se couber mais, cresce (cria 2 ou 3 colunas em desktop).
-    */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px; /* Espaço entre os cards */
+    gap: 25px;
 }
 
 .menu-item-card {
-    background-color: var(--background); /* Fundo #f8f8f8 */
+    background-color: var(--background);
     border: 1px solid #eee;
     border-radius: 8px;
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     display: flex;
-    flex-direction: column; /* Organiza o card verticalmente */
-    min-height: 220px; /* Altura mínima para alinhar os cards */
+    flex-direction: column;
+    min-height: 220px;
 }
 
 .menu-item-card h4 {
@@ -238,16 +231,16 @@ section {
 
 .menu-item-card .item-desc {
     font-size: 0.95em;
-    color: var(--accent-1); /* Marrom médio */
-    flex-grow: 1; /* Faz a descrição ocupar o espaço disponível */
+    color: var(--accent-1);
+    flex-grow: 1;
     margin-bottom: 15px;
 }
 
 .price-tag {
     font-size: 1.25em;
     font-weight: bold;
-    color: var(--primary); /* Cor vinho */
-    text-align: right; /* Alinha o preço à direita */
+    color: var(--primary);
+    text-align: right;
 }
 
 
