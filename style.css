@@ -278,6 +278,10 @@ section h2 {
 .menu-category {
     margin-bottom: 50px;
     text-align: center;
+    
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
 }
 
 .menu-category h3 {
@@ -290,12 +294,11 @@ section h2 {
 }
 
 
-.menu-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
+.menu-grid {    
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-items: center;
+    gap: 25px;
 }
 
 .menu-item-card {
@@ -308,6 +311,7 @@ section h2 {
     flex-direction: column;
     gap: 15px;
     min-height: auto;
+    width: 300px;
 }
 
 .item-header {
