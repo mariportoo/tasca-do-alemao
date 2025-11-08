@@ -476,6 +476,12 @@ ESTILOS DE RESPONSIVIDADE (MOBILE-FIRST)
     footer p a:hover {
         color: var(--light-text);
     }
+
+    .endereco-footer {
+        margin: 5px 0 10px 0;
+        color: var(--secondary);
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 480px) {
