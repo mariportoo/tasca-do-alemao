@@ -5,6 +5,8 @@
     --text-dark: #382405;
     --accent-1: #8F4E26;
     --accent-2: #582103;
+    --accent-3: #EADEDD;
+    --accent-4: #F8F8F8;
     --background: #F8F8F8;
     --light-text: white;
 }
@@ -249,7 +251,7 @@ section h2 {
 }
 
 .sobre-nos {
-    background-color: #eadedd;
+    background-color: var(--accent-3);
 }
 
 .historia-content {
@@ -396,7 +398,7 @@ footer p a:hover {
 FEED DO INSTAGRAM
 --------------------------------- */
 .insta-feed {
-    background-color: #eadedd; 
+    background-color: var(--accent-4);
     padding-top: 50px;
     padding-bottom: 80px;
 }
