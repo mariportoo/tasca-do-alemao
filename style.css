@@ -222,12 +222,12 @@ section {
     display: flex;
     align-items: flex-start;
     gap: 15px;
-    min-height: 150px;
+    min-height: 180px; 
 }
 
 .item-img {
-    width: 120px;
-    height: 120px;
+    width: 160px; 
+    height: 100px; 
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
@@ -318,8 +318,8 @@ ESTILOS DE RESPONSIVIDADE (MOBILE-FIRST)
     }
 
     .item-img {
+        max-width: 200px; 
         height: 120px;
-        max-width: 150px;
         width: 100%;
         margin-bottom: 15px;
     }
